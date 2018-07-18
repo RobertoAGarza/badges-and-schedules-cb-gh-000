@@ -8,7 +8,7 @@ def batch_badge_creator(nameArray)
   batch
 end
 #one room per speaker
-#1-7 
+#1-7
 def assign_rooms(speakerArray)
   messages = []
   roomNumber = 1
