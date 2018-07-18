@@ -22,5 +22,8 @@ end
 def printer(names)
 
   puts batch_badge_creator(name)
-  puts assign_rooms(names)
+  assign_rooms(names).each |message|
+    puts message
+  end
+  
 end
