@@ -3,5 +3,5 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(nameArray)
-  return nameArray.each {|name| badgeMaker(name)}
+  nameArray.each {|name| return badgeMaker(name)}
 end
