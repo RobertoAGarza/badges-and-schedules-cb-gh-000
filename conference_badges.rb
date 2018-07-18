@@ -3,7 +3,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(nameArray)
+messages = []
+i=0
   nameArray.each do |name|
-    return badge_maker(name)
+    messages[i] = badge_maker(name)
+    i++
   end
+  messages
 end
