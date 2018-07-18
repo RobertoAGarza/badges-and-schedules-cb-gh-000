@@ -16,4 +16,5 @@ def assign_rooms(speakerArray)
     messages << "Hello, #{speaker}! You'll be assigned to room #{roomNumber}!"
     roomNumber+= 1
   end
+  messages
 end
