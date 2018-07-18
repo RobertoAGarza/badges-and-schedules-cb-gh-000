@@ -20,6 +20,7 @@ def assign_rooms(speakerArray)
 end
 
 def printer(names)
-  batch_badge_creator(names)
-  assign_rooms(names)
+  
+  puts batch_badge_creator(name)
+  puts assign_rooms(names)
 end
